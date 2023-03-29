@@ -76,10 +76,15 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     font-size: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .footer-2{
     display: flex;
     font-size: 0.3rem;
+    margin-left: 26%;
+}
+.f-texto{
+    color: white;
 }
 @media screen and (max-width:600px){
     .column-3{
