@@ -86,6 +86,11 @@ h2{
 .f-texto{
     color: white;
 }
+.footer-2{
+    display: flex;
+    font-size: 0.3rem;
+    margin-left: 26%;
+}
 @media screen and (max-width:600px){
     .column-3{
         flex-direction: row;
