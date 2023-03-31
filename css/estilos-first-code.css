@@ -28,11 +28,10 @@ body{
     object-fit: cover;
     width: 33.33%;
     float: left;
-    margin: 20px;
-    margin-left: 6.5%;
+    padding: 2%;
 }
 img{
-    width: 300px;
+    width: 100%;
 }
 
 .proyectos{
@@ -94,24 +93,19 @@ h2{
     html{
         font-size: 40px;
     }
-    #encabezado-imagen{
-        
-    }
     .column-3{
         flex-direction: row;
-        width: 50%;
-        display: flex;
         object-fit: cover;
         float: left;
-        margin: 10px;
-        margin-left: 3.25%;
+        flex-wrap: wrap;
+        padding: 2%;
     }
     img{
         float: left;
     }
     .centrado{
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
@@ -120,7 +114,6 @@ h2{
         font-family: 'Quicksand', sans-serif;
         font-weight: bold;
     }
-    
     .datos-mapa{
         display: block;
         margin-left: 2%;
