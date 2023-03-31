@@ -91,6 +91,12 @@ h2{
     margin-left: 26%;
 }
 @media screen and (max-width:768px){
+    html{
+        font-size: 40px;
+    }
+    #encabezado-imagen{
+        
+    }
     .column-3{
         flex-direction: row;
         width: 50%;
@@ -99,6 +105,9 @@ h2{
         float: left;
         margin: 10px;
         margin-left: 3.25%;
+    }
+    img{
+        float: left;
     }
     .centrado{
         position: absolute;
@@ -111,13 +120,17 @@ h2{
         font-family: 'Quicksand', sans-serif;
         font-weight: bold;
     }
-    html{
-        font-size: 40px;
-    }
+    
     .datos-mapa{
         display: block;
+        margin-left: 2%;
     }
-    .mapa{
-        width: 100%;
+    iframe{
+        width: 480px;
+        margin-left: 0%;
+    }
+    .footer-3{
+        display: block;
+        margin-left: 0%;
     }
 }
