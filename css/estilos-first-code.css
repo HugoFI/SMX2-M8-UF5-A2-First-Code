@@ -86,19 +86,18 @@ h2{
 .f-texto{
     color: white;
 }
-.footer-2{
-    display: flex;
+.footer-3{
     font-size: 0.3rem;
     margin-left: 26%;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .column-3{
         flex-direction: row;
         width: 50%;
         display: flex;
         object-fit: cover;
         float: left;
-        margin: 20px;
+        margin: 10px;
         margin-left: 3.25%;
     }
     .centrado{
@@ -113,9 +112,12 @@ h2{
         font-weight: bold;
     }
     html{
-        font-size: 30px;
+        font-size: 40px;
+    }
+    .datos-mapa{
+        display: block;
     }
     .mapa{
-        width: 20%;
+        width: 100%;
     }
 }
