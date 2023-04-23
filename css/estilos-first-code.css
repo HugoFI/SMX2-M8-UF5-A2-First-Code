@@ -99,6 +99,7 @@ h2{
         float: left;
         flex-wrap: wrap;
         padding: 2%;
+        width: 50%;
     }
     img{
         float: left;
